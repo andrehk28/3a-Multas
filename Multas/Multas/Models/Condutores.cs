@@ -26,5 +26,12 @@ namespace Multas.Models
         public DateTime DataValidadeCarta { get; set; }
 
 
+
+        //***************************************************
+        // lista de multas associadas ao Condutor
+
+        public ICollection<Multas> ListaDeMultas { get; set; }
+
+
     }
 }
