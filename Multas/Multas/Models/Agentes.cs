@@ -8,16 +8,13 @@ namespace Multas.Models
     public class Agentes
     {
 
-        public int Id { get; set; }
+        public int ID { get; set; }
 
-        public String Nome { get; set; }
+        public string Nome { get; set; }
 
+        public string Esquadra { get; set; }
 
-
-        public String Esquadra { get; set; }
-
-
-        public String Foto { get; set; }
+        public string Fotografia { get; set; }
 
 
     }
